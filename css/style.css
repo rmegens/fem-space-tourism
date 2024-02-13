@@ -1,1 +1,129 @@
 /* stylesheet voor space */
+
+
+/* css reset */
+
+/* basic root setup */
+:root {
+  --clr-primary: hsl(230, 35%, 7%);
+  --clr-secundary: hsl(231, 77%, 90%);
+  --clr-tertiary: hsl(0, 0%, 100%);
+
+  --fs-base: 18px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-28: 28px;
+  --fs-32: 32px;
+  --fs-56: 56px;
+  --fs-100: 100px;
+  --fs-150: 150px;
+
+  --ff-primary: "Bellefair", serif;
+  --ff-secundary: "Barlow Condensed", sans-serif;
+
+  /* grid */
+  --grid-cols: 12;
+  --grid-col-width: 65px;
+  --grid-col-gutter: 30px;
+  --grid-rows: 13;
+  --grid-row-height: 60px;
+  --grid-row-gutter: 12px;
+
+  /* page sizes */
+  --ps-width-desktop: 1440;
+  --ps-height-desktop: 900;
+
+}
+
+/* basic element setup */
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background-color: var(--clr-primary);
+  color: var(--clr-tertiary);
+}
+
+
+
+/* media queries */
+
+
+/* styling starts here */
+
+h1 { 
+  font-family: var(--ff-primary);
+  font-size: var(--fs-150);
+  font-weight: 200;
+  text-transform: uppercase; 
+}
+
+h2 { 
+  font-family: var(--ff-primary);
+  font-size: var(--fs-100); 
+}
+
+h3 { 
+  font-family: var(--ff-primary);
+  font-size: var(--fs-56); 
+}
+
+h4 { 
+  font-family: var(--ff-primary);
+  font-size: var(--fs-32);
+  font-weight: 100;
+  text-transform: uppercase; 
+}
+
+h5 {
+  font-family: var(--ff-secundary);
+  font-size: var(--fs-28);
+  letter-spacing: 2.36px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.subh1 {
+  font-family: var(--ff-primary);
+  font-size: var(--fs-28);
+}
+
+.subh2 {
+  font-family: var(--ff-secundary);
+  font-size: var(--fs-14);
+  letter-spacing: 2.36px;
+}
+
+nav {
+  font-family: var(--ff-secundary);
+  font-size: var(--fs-16);
+  letter-spacing: 2.7px;
+}
+
+p {
+  font-family: var(--ff-secundary);
+  font-size: var(--fs-base);
+  line-height: 32px;
+}
+
+.cirle {
+  width: 140px;
+  height: 140px;
+  background: var(--clr-tertiary);
+  border-radius: 70px;
+  -moz-border-radius: 70px; 
+  -webkit-border-radius: 70px; 
+}
+
+/* Home */
+
+/* Destinations */
+
+/* Crew */
+
+/* Technology */
